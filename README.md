@@ -1,5 +1,5 @@
 # code-design-review-skills
-[![License](https://img.shields.io/github/license/dknauss/code-design-review-skills)](LICENSE)
+[![License](https://img.shields.io/github/license/dknauss/code-design-review-skills)](LICENSE) [![Skills](https://img.shields.io/badge/skills-2-7c3aed.svg)](skills/) [![AI Authorship](https://img.shields.io/badge/AI%20authorship-disclosed-8a63d2.svg)](docs/ai-authorship.md)
 
 
 AI mentoring and philosophy-review skills for simplicity-first software design.
