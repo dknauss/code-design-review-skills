@@ -1,4 +1,6 @@
 # code-design-review-skills
+[![License](https://img.shields.io/github/license/dknauss/code-design-review-skills)](LICENSE)
+
 
 AI mentoring and philosophy-review skills for simplicity-first software design.
 
