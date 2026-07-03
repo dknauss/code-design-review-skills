@@ -79,12 +79,13 @@ Those policies make the baseline behavior mandatory across the governed repos:
 
 ### 2. Shared skill distribution
 
-Operational copies of the two skills are mirrored into the shared skill system so they can be consumed by agents in practice:
+Operational copies of the two skills are mirrored into the active runtime/distribution system so they can be consumed by agents in practice:
 
-- `dknauss/agent-skills/skills/code-mentor/SKILL.md`
-- `dknauss/agent-skills/skills/cs-philosophy-review/SKILL.md`
+- workspace and tracked instructions in `dknauss/.github/AGENTS.md`
+- repo-local consumer mirrors under `.github/.github/skills/`
+- installed runtime copies for Codex and Claude
 
-That keeps them available alongside the broader workspace skillpack.
+They are **not authored in `agent-skills`**. That repository remains the canonical source for shared **WordPress** skills. These two skills follow a parallel non-WordPress distribution path from this repo into governance and installed runtime copies.
 
 ### 3. Generated agent instructions
 
@@ -114,7 +115,7 @@ The active runtime copies are mirrored into the broader governance/skill distrib
 The practical edit flow is:
 
 1. refine the skill here,
-2. sync the operational copy into `agent-skills`,
+2. sync or mirror the operational copies into governance/runtime consumers,
 3. regenerate shared `AGENTS.md`,
 4. revalidate governed repositories.
 
